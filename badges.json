@@ -170,32 +170,6 @@
     },
     {
       "groupId": "gq",
-      "id": "q-w",
-      "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/white-webdl.svg",
-      "isEnabled": true,
-      "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web(?![-_. ]?rip)\\b)",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFBE01",
-      "type": "filter",
-      "borderColor": "#FFFFFF"
-    },
-    {
-      "groupId": "gq",
-      "id": "q-w",
-      "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/grey-webrip.svg",
-      "isEnabled": true,
-      "name": "WebRip",
-      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFBE01",
-      "type": "filter",
-      "borderColor": "#FFFFFF"
-    },
-    {
-      "groupId": "gq",
       "id": "q-hdtv",
       "imageURL": "https://raw.githubusercontent.com/starkles/Nuvio-sven-badges/main/grey-HDTV.svg",
       "isEnabled": false,
@@ -843,6 +817,30 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+    {
+      "id": "q-wr",
+      "name": "WebRip",
+      "groupId": "gq",
+      "imageURL": "https://files.catbox.moe/elk2gf.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#ffffff",
+      "tagStyle": "bordered"
+    },
+    {
+      "id": "q-w",
+      "name": "WebDL",
+      "groupId": "gq",
+      "imageURL": "https://files.catbox.moe/um4gwq.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b(?!.*rip)",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#ffffff",
+      "tagStyle": "bordered"
     }
   ]
 }

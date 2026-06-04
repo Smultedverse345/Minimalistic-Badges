@@ -546,6 +546,30 @@
       "borderColor": "#00000000"
     },
     {
+      "id": "q-wr",
+      "name": "WebRip",
+      "groupId": "gq",
+      "imageURL": "https://files.catbox.moe/elk2gf.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#ffffff",
+      "tagStyle": "bordered"
+    },
+    {
+      "id": "q-w",
+      "name": "WebDL",
+      "groupId": "gq",
+      "imageURL": "https://files.catbox.moe/um4gwq.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b(?!.*rip)",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#ffffff",
+      "tagStyle": "bordered"
+    },
+    {
       "borderColor": "#FFFFFFFF",
       "groupId": "gl",
       "id": "l-en",
@@ -602,7 +626,7 @@
       "groupId": "gl",
       "id": "l-it",
       "imageURL": "https://files.catbox.moe/2k1nj1.png",
-      "isEnabled": false,
+      "isEnabled": true,
       "name": "🇮🇹",
       "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(italian|ita)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
       "tagColor": "#00000000",
@@ -817,30 +841,6 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
-    },
-    {
-      "id": "q-wr",
-      "name": "WebRip",
-      "groupId": "gq",
-      "imageURL": "https://files.catbox.moe/elk2gf.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
-      "tagColor": "#00000000",
-      "textColor": "#FFFFFF",
-      "borderColor": "#ffffff",
-      "tagStyle": "bordered"
-    },
-    {
-      "id": "q-w",
-      "name": "WebDL",
-      "groupId": "gq",
-      "imageURL": "https://files.catbox.moe/um4gwq.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b(?!.*rip)",
-      "tagColor": "#00000000",
-      "textColor": "#FFFFFF",
-      "borderColor": "#ffffff",
-      "tagStyle": "bordered"
     }
   ]
 }
